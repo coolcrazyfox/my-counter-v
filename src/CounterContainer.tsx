@@ -10,7 +10,7 @@ type PropsTestType ={
     styleInc:boolean
     styleRes:boolean
     maxValue:number
-    error?:string
+    error:string
 
 }
 export const CounterContainer: React.FC<PropsTestType> = ({error, maxValue, count,  counterStart, resetCounter, styleInc, styleRes  }) =>  {
